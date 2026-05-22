@@ -1,0 +1,14 @@
+{
+  "name": "teamflow-backend",
+  "version": "1.0.0",
+  "description": "TeamFlow Task Manager REST API - Node.js + Express + MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node config/initDB.js"
+  },
+  "keywords": ["task-management", "rest-api", "jwt", "mysql"],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "teamflow",
+  "version": "1.0.0",
+  "description": "TeamFlow - Full Stack Task Management App",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "build": "cd frontend && npm install && npm run build",
+    "install:all": "npm install --prefix backend && npm install --prefix frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
